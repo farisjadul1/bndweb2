@@ -62,7 +62,7 @@ class Laporan extends Component {
       f_tgl2 = new Date(tgl2);
     }
 
-    Object.keys(dataPenjualan).map((key) => {
+    Object.keys(dataPenjualan).forEach((key) => {
       let tgl_data = formatDate(dataPenjualan[key].tanggal);
       tgl_data = new Date(tgl_data);
       if (tgl_data < f_tgl1 || tgl_data > f_tgl2) {

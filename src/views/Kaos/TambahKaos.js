@@ -18,7 +18,6 @@ import foto from "../../assets/img/default-image.jpg";
 import swal from "sweetalert";
 import { uploadKaos } from "actions/KaosAction";
 import { tambahKaos } from "actions/KaosAction";
-import ReactTextareaAutosize from "react-textarea-autosize";
 
 class TambahKaos extends Component {
   constructor(props) {
