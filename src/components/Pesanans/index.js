@@ -22,7 +22,7 @@ export default class Pesanans extends Component {
                   {pesanans[key].product.nama}
                 </p>
                 <p>
-                  Rp. {numberWithCommas(pesanans[key].product.harga)}
+                 Harga Rp. {numberWithCommas(pesanans[key].product.harga)}
                 </p>
               
                 <p>Pesan : {pesanans[key].jumlahPesan}</p>

@@ -16,7 +16,17 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import { ListPesanan, ListJenis, TambahJenis, Dashboard, EditJenis, ListKaos, TambahKaos, EditKaos, Laporan } from "./views";
+import {
+  ListPesanan,
+  ListJenis,
+  TambahJenis,
+  Dashboard,
+  EditJenis,
+  ListKaos,
+  TambahKaos,
+  EditKaos,
+  Laporan,
+} from "./views";
 
 var routes = [
   {
@@ -71,7 +81,7 @@ var routes = [
     layout: "/admin",
     sidebar: false,
   },
-  
+
   {
     path: "/pesanan",
     name: "Transaksi",
@@ -82,7 +92,7 @@ var routes = [
   },
   {
     path: "/laporan",
-    name: "Laporan",
+    name: "Laporan Penjualan",
     icon: "nc-icon nc-app",
     component: Laporan,
     layout: "/admin",

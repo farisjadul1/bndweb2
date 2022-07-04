@@ -35,7 +35,7 @@ class ListPesanan extends Component {
                 <Table>
                   <thead className="text-primary">
                     <tr>
-                      <th>Tanggal & Orde_Id</th>
+                      <th>Tanggal Order</th>
                       <th>Pesanan</th>
                       <th>Status</th>
                       <th>Total Harga</th>
@@ -58,10 +58,6 @@ class ListPesanan extends Component {
                           </td>
                           <td>{getListPesananResult[key].status}</td>
                           <td>
-                            <p>
-                              Total Harga : Rp. {numberWithCommas(
-                                  getListPesananResult[key].totalHarga)}
-                            </p>
                             <p>
                               Ongkir : Rp.{" "}
                               {numberWithCommas(

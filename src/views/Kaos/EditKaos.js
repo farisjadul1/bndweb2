@@ -338,11 +338,11 @@ class EditKaos extends Component {
                             />
                           </FormGroup>
                         </Col>
-                        <Col md="6">
+                        <Col md="12">
                           <FormGroup>
                             <label>Keterangan</label>
                             <Input
-                              type="text"
+                              type="textarea"
                               value={jenis}
                               name="jenis"
                               onChange={(event) => this.handleChange(event)}

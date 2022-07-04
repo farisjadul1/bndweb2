@@ -18,6 +18,7 @@ import foto from "../../assets/img/default-image.jpg";
 import swal from "sweetalert";
 import { uploadKaos } from "actions/KaosAction";
 import { tambahKaos } from "actions/KaosAction";
+import ReactTextareaAutosize from "react-textarea-autosize";
 
 class TambahKaos extends Component {
   constructor(props) {
@@ -305,11 +306,11 @@ class TambahKaos extends Component {
                             />
                           </FormGroup>
                         </Col>
-                        <Col md="6">
+                        <Col md="12">
                           <FormGroup>
                             <label>Keterangan</label>
                             <Input
-                              type="text"
+                              type="textarea"
                               value={jenis}
                               name="jenis"
                               onChange={(event) => this.handleChange(event)}
