@@ -53,7 +53,7 @@ class TambahJenis extends Component {
       this.props.dispatch(tambahJenis(this.state));
     } else {
       //aletr
-      swal("Failed", "Maaf Nama Jenis dan Logo Jenis Harus disi", "error");
+      swal("Failed", "Maaf Nama Jenis Harus disi", "error");
     }
   };
 
