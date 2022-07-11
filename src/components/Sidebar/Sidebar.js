@@ -53,7 +53,7 @@ function Sidebar(props) {
     >
       <div className="logo">
         <a
-          href="http://localhost:3000/admin/dashboard"
+          href="https://bannedapparel.netlify.app"
           className="simple-text logo-mini"
         >
           <div className="logo-img">
@@ -61,7 +61,7 @@ function Sidebar(props) {
           </div>
         </a>
         <a
-          href="http://localhost:3000/admin/dashboard"
+          href="https://bannedapparel.netlify.app"
           className="simple-text logo-normal"
         >
           Admin BND APPAREL

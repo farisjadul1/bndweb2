@@ -26,7 +26,7 @@ import "assets/demo/demo.css";
 import "perfect-scrollbar/css/perfect-scrollbar.css";
 import store from "./reducers/store";
 import AdminLayout from "layouts/Admin.js";
-import { Login, Gagal, Finish, Unfinish } from "./views";
+import { Login } from "./views";
 
 ReactDOM.render(
   <Provider store={store}>
