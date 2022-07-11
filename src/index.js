@@ -34,9 +34,6 @@ ReactDOM.render(
       <Switch>
         <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
         <Route path="/login" component={Login} exact />
-        <Route path="/payment/finish" component={Finish} exact />
-        <Route path="/payment/unfinish" component={Unfinish} exact />
-        <Route path="/payment/error" component={Gagal} exact />
         {/* <Redirect to="/admin/dashboard" /> ini yang biki orang ke redirek tampa login */}
 
         <Redirect to="/login" />
