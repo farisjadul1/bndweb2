@@ -298,7 +298,7 @@ class EditKaos extends Component {
                       <Row>
                         <Col md="6">
                           <FormGroup>
-                            <label>Jenis Apparel</label>
+                            <label>Kategori Apparel</label>
                             <Input
                               type="select"
                               name="jeni"

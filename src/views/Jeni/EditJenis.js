@@ -104,7 +104,7 @@ class EditJenis extends Component {
           <Col md="12">
             <Card>
               <CardHeader>
-                <CardTitle tag="h4">Edit Jenis</CardTitle>
+                <CardTitle tag="h4">Edit Kategori</CardTitle>
               </CardHeader>
               <CardBody>
                 <Row>

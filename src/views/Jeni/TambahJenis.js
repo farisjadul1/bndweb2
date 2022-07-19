@@ -87,7 +87,7 @@ class TambahJenis extends Component {
           <Col md="12">
             <Card>
               <CardHeader>
-                <CardTitle tag="h4">Tambah Jenis</CardTitle>
+                <CardTitle tag="h4">Tambah Kategori</CardTitle>
               </CardHeader>
               <CardBody>
                 <Row>
@@ -99,7 +99,7 @@ class TambahJenis extends Component {
                   <Row>
                     <Col md={6}>
                       <FormGroup>
-                        <label>Logo Jenis</label>
+                        <label>Logo Kategori</label>
                         <Input
                           type="file"
                           onChange={(event) => this.handleImage(event)}
@@ -108,7 +108,7 @@ class TambahJenis extends Component {
                     </Col>
                     <Col md={6}>
                       <FormGroup>
-                        <label>Nama Jenis</label>
+                        <label>Nama Kategori</label>
                         <Input
                           type="text"
                           value={namajenis}

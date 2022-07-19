@@ -143,7 +143,7 @@ class Laporan extends Component {
                   <Col xs="auto">
                     <div className="App">
                       <button className="btn btn-success" onClick={exportExcel}>
-                        Export To Excel
+                        Download Laporan
                       </button>
                       <ReactHTMLTableToExcel
                         id="convExcel"

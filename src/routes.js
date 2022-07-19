@@ -60,8 +60,8 @@ var routes = [
     sidebar: false,
   },
   {
-    path: "/jenis",
-    name: "Jenis Apparel",
+    path: "/kategori",
+    name: "Kategori Apparel",
     icon: "nc-icon nc-paper",
     component: ListJenis,
     layout: "/admin",

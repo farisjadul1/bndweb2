@@ -51,12 +51,12 @@ class ListJenis extends Component {
           <Col md="12">
             <Card>
               <CardHeader>
-                <CardTitle tag="h4">Jenis Apparel</CardTitle>
+                <CardTitle tag="h4">Kategori Apparel</CardTitle>
                 <Link
                   to="/admin/jenis/tambah"
                   className="btn btn-primary float-right"
                 >
-                  Tambah Jenis
+                  Tambah Kategori
                 </Link>
               </CardHeader>
               <CardBody>
@@ -64,7 +64,7 @@ class ListJenis extends Component {
                   <thead className="text-primary">
                     <tr>
                       <th>Logo</th>
-                      <th>Nama Jenis</th>
+                      <th>Nama Kategori</th>
                       <th>Aksi</th>
                     </tr>
                   </thead>

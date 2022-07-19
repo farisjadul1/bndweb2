@@ -63,7 +63,7 @@ function Dashboard() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                     <Link className="btn btn-warning" to={"/admin/jenis/"}>
-                        Jenis Apparel
+                        Kategori Apparel
                       </Link>
                     </div>
                   </Col>
